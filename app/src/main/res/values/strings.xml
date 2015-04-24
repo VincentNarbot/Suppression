@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Suppression</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_add_contact">Add</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <!--Main Title Navigation-->
+    <string name="section_title1">Inbox</string>
+    <string name="section_title2">Contact</string>
+    <!--Login Screens-->
+    <string name="signup_label">Sign up</string>
+    <string name="login_label">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="signup_button">Sign up</string>
+    <string name="login_button">Login</string>
+    <!--Camera-->
+    <string-array name="camera_choices">
+        <item>Take Picture</item>
+        <item>Take Video</item>
+        <item>Choose Picture</item>
+        <item>Choose Video</item>
+    </string-array>
+    <!--Inbox Screen-->
+    <string name="inbox_empty">Inbox is Empty</string>
+    <!--Contact Screen-->
+    <string name="contact_empty">No Contact</string>
+    <!--Error Message-->
+    <string name="error_signup_message">Please insert Username, Password and Email</string>
+    <string name="error_login_message">Please insert Username and Password </string>
+    <string name="error_external_storage_message">Problem(s) with external storage </string>
+    <string name="error_label">Oops</string>
+    <string name="error_loading_backend">An error happened with the backend</string>
+    <string name="title_activity_add_contact">Add Contact</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="error_general">Sorry, there was an error!</string>
+    <string name="error_file_selected">There was an error with the file. Please select another file.</string>
+    <string name="error_file_too_large">File selected is too large</string>
+    <!--Warning Message-->
+    <string name="video_max_size">Video need to be less than 10 mb.</string>
+    <string name="title_activity_recipients">Choose Recipients</string>
+    <string name="message_sent">Message sent</string>
+    <string name="error_sending_message">Error sending this message. Please try again</string>
+
+</resources>
