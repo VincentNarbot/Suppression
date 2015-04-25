@@ -160,11 +160,7 @@ public class RecipientsActivity extends ActionBarActivity {
                 send(message);
                 finish();
             }
-
         }
-
-
-
         return super.onOptionsItemSelected(item);
     }
 

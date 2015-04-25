@@ -46,5 +46,6 @@
     <string name="title_activity_recipients">Choose Recipients</string>
     <string name="message_sent">Message sent</string>
     <string name="error_sending_message">Error sending this message. Please try again</string>
+    <string name="title_activity_view_image">Image</string>
 
 </resources>
