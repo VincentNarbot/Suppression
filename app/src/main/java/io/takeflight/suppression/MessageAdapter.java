@@ -35,6 +35,7 @@ public class MessageAdapter extends ArrayAdapter<ParseObject> {
             holder = new ViewHolder();
             holder.messageIcon = (ImageView) convertView.findViewById(R.id.messageIcon);
             holder.messageLabel = (TextView) convertView.findViewById(R.id.messageLabel);
+            convertView.setTag(holder);
         }
         else{
             holder = (ViewHolder)convertView.getTag();
