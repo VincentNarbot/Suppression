@@ -123,5 +123,24 @@ public class InboxFragment extends ListFragment {
             startActivity(videoViewIntent);
         }
 
+        //Delete message after 10 secondes
+//        List<String> recipientIds = message.getList(AppConstants.KEY_RECIPIENT_IDS);
+//        if(recipientIds.size() == 1){
+//            //Only me
+//            message.deleteInBackground();
+//        }
+//        else{
+//            //Remove CurrentId
+//            //Remove locally
+//            recipientIds.remove(ParseUser.getCurrentUser().getObjectId());
+//
+//            //Remove from Parse Backend
+//            ArrayList<String> recipientsIdsToRemove = new ArrayList<String>();
+//            recipientsIdsToRemove.add(ParseUser.getCurrentUser().getObjectId());
+//
+//            message.removeAll(AppConstants.KEY_RECIPIENT_IDS,recipientsIdsToRemove);
+//            message.saveInBackground();
+//        }
+
     }
 }

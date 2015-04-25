@@ -47,5 +47,6 @@
     <string name="message_sent">Message sent</string>
     <string name="error_sending_message">Error sending this message. Please try again</string>
     <string name="title_activity_view_image">Image</string>
+    <string name="count_down_message">10</string>
 
 </resources>
