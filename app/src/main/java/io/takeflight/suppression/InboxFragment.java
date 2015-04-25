@@ -20,6 +20,7 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -124,23 +125,23 @@ public class InboxFragment extends ListFragment {
         }
 
         //Delete message after 10 secondes
-//        List<String> recipientIds = message.getList(AppConstants.KEY_RECIPIENT_IDS);
-//        if(recipientIds.size() == 1){
-//            //Only me
-//            message.deleteInBackground();
-//        }
-//        else{
-//            //Remove CurrentId
-//            //Remove locally
-//            recipientIds.remove(ParseUser.getCurrentUser().getObjectId());
-//
-//            //Remove from Parse Backend
-//            ArrayList<String> recipientsIdsToRemove = new ArrayList<String>();
-//            recipientsIdsToRemove.add(ParseUser.getCurrentUser().getObjectId());
-//
-//            message.removeAll(AppConstants.KEY_RECIPIENT_IDS,recipientsIdsToRemove);
-//            message.saveInBackground();
-//        }
+        List<String> recipientIds = message.getList(AppConstants.KEY_RECIPIENT_IDS);
+        if(recipientIds.size() == 1){
+            //Only me
+            message.deleteInBackground();
+        }
+        else{
+            //Remove CurrentId
+            //Remove locally
+            recipientIds.remove(ParseUser.getCurrentUser().getObjectId());
+
+            //Remove from Parse Backend
+            ArrayList<String> recipientsIdsToRemove = new ArrayList<String>();
+            recipientsIdsToRemove.add(ParseUser.getCurrentUser().getObjectId());
+
+            message.removeAll(AppConstants.KEY_RECIPIENT_IDS,recipientsIdsToRemove);
+            message.saveInBackground();
+        }
 
     }
 }

@@ -18,7 +18,7 @@ public class ViewImageActivity extends ActionBarActivity {
 
     public static final String TAG = "ViewImageActivity";
 
-    protected int mCountDown = 10;
+    protected int mCountDown = 11;
     TextView countDown;
     final Handler mHandler = new Handler();
     Timer mTimer;

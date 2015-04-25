@@ -2,8 +2,8 @@ package io.takeflight.suppression;
 
 import android.app.AlertDialog;
 import android.net.Uri;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,7 +24,6 @@ import com.parse.ParseRelation;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
