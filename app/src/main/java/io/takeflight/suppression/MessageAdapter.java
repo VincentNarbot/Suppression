@@ -57,4 +57,10 @@ public class MessageAdapter extends ArrayAdapter<ParseObject> {
         ImageView messageIcon;
         TextView messageLabel;
     }
+
+    public void refill(List<ParseObject> messages){
+        mMessages.clear();
+        mMessages.addAll(messages);
+        notifyDataSetChanged();
+    }
 }
